@@ -197,6 +197,12 @@ div.menu li a:hover{
 
 /* end nav bar */
 
+.container{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
 
 /* start container 1 */
 .how_are{
