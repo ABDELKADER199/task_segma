@@ -8,7 +8,7 @@ body{
     direction: rtl;
     width:1400px;
     margin-right:60px;
-    overflow-x:hidden;
+    box-sizing: border-box;
 }
 
 @media (max-width:950px){
@@ -18,8 +18,6 @@ body{
         direction: rtl;
         width:850px;
         margin-right:60px;
-        overflow-x:hidden;
-    
 }
 }
 
@@ -30,8 +28,6 @@ body{
         direction: rtl;
         width:600px;
         margin-right:60px;
-        overflow-x:hidden;
-    
 }
 }
 
@@ -42,8 +38,7 @@ body{
         direction: rtl;
         width:470px;
         margin-right:60px;
-        overflow-x:hidden;
-    
+        box-sizing: border-box;
 }
 }
 
