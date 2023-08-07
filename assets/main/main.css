@@ -197,9 +197,6 @@ div.menu li a:hover{
 
 /* end nav bar */
 
-.container{
-    /* box-sizing: border-box; */
-}
 
 /* start container 1 */
 .how_are{
@@ -325,6 +322,7 @@ button:hover{
     color: white;
     font-size: 20px;
     font-weight: normal;
+    text-align: center;
 }
 .subject{
     text-align: center;
