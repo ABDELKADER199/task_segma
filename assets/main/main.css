@@ -6,6 +6,45 @@
 body{
     background-color: rgb(24, 24, 24);
     direction: rtl;
+    width:1400px;
+    margin-right:60px;
+    overflow-x:hidden;
+}
+
+@media (max-width:950px){
+
+    body{
+        background-color: rgb(24, 24, 24);
+        direction: rtl;
+        width:850px;
+        margin-right:60px;
+        overflow-x:hidden;
+    
+}
+}
+
+@media (max-width:740px){
+
+    body{
+        background-color: rgb(24, 24, 24);
+        direction: rtl;
+        width:600px;
+        margin-right:60px;
+        overflow-x:hidden;
+    
+}
+}
+
+@media (max-width:600px){
+
+    body{
+        background-color: rgb(24, 24, 24);
+        direction: rtl;
+        width:470px;
+        margin-right:60px;
+        overflow-x:hidden;
+    
+}
 }
 
 /* start nav bar */
@@ -49,7 +88,6 @@ div.logo ul{
  }
 
  /* small */
-
  @media (max-width:600px){
     div.logo{
         width:40%
@@ -60,6 +98,20 @@ div.logo ul{
     }
  }
 
+ /* mid */
+
+ @media (max-width:740px){
+    div.logo{
+        width:40%
+    }
+
+    /* .burrgar_menu{
+        display: block;
+    }
+ } */
+
+ }
+ 
 span{
     margin:-20px;
 }
@@ -110,7 +162,7 @@ div.menu ul li{
         text-align: center;
     }
     div.menu ul li{
-        width:30%;
+        width:40%;
     } 
 }
 
@@ -149,11 +201,11 @@ div.menu li a:hover{
 
 /* end nav bar */
 
-.container{
+/* .container{
     padding-left: 100px;
     padding-right: 100px;
     overflow: hidden;
-}
+} */
 
 /* start container 1 */
 .how_are{
@@ -164,9 +216,10 @@ div.menu li a:hover{
 }
 
 
-.how_are .container .movie_logo{
-    width: 50%;
+.how_are .movie_logo{
+    width: 45%;
     text-align: center;
+    margin-right: 20px;
 }
 
 
@@ -177,10 +230,12 @@ div.menu li a:hover{
     height: 200px;
 }
 
-.container .contant{
-    width:50%;
+.contant{
+    width:45%;
     padding-top: 40px;
-    padding-left: 50px;
+    /* padding-left: 50px; */
+    margin-right: 50px;
+    text-align: center;
     
 }
 
@@ -188,13 +243,13 @@ div.menu li a:hover{
 
 @media (max-width:950px){
 
-    .how_are{
-        justify-content: center;
-        padding: 20px;
-    }
-    .container{
-        width: 100%;
+    .contant{
+        width:45%;
+        padding-top: 40px;
+        /* padding-left: 50px; */
+        /* margin-right: 50px; */
         text-align: center;
+        
     }
 
 }
@@ -244,6 +299,7 @@ h1{
     color: white;
     font-size: 25px;
     font-weight: normal;
+    text-align: center;
 }
 
 button{
@@ -465,6 +521,8 @@ div.boxs{
     background-color: rgb(38, 38, 38);
     width: 40%;
     height:600px;
+    position: relative;
+    overflow: hidden;
 }
 
 /* LG */
@@ -472,10 +530,15 @@ div.boxs{
     .address2{
         width: 65%;
         margin-bottom: 20px;
+        position: relative;
     }
 
     div.form{
         width: 65%;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        overflow: hidden;
     }
     div.form .subject p{
         text-align: center;
@@ -495,11 +558,15 @@ div.boxs{
     .address2{
         width:80%;
         margin-bottom: 20px;
+        position: relative;
     }
 
 
     div.form{
         width: 80%;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
     }
 }
 
@@ -509,11 +576,25 @@ div.boxs{
     .address2{
         width: 90%;
         margin-bottom: 20px;
+        position: relative;
     }
 
 
     div.form{
         width: 90%;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+    }
+
+    textarea{
+        width:90%;
+        margin-right: -50px;
+        padding: 0;
+    }
+
+    .submit input{
+        margin-right: 130px;
     }
 }
 
@@ -660,6 +741,7 @@ h3{
 
 .subject{
     width: 100%;
+    text-align: center;
 }
 
 .subject input{
@@ -669,8 +751,8 @@ h3{
 }
 
 .subject p{
-    text-align: right;
-    padding-right: 60px;
+    /* text-align: right; */
+    /* padding-right: 60px; */
     padding-top: 30px;
 }
 
@@ -693,9 +775,6 @@ textarea{
 
 .submit{
     padding-top: 20px;
-    margin-right: 240px;
-    width: 100%;
-    justify-content: center;
 }
 
 .submit input{
