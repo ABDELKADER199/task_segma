@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     scroll-behavior: smooth;
+    box-sizing: border-box;
 }
 body{
     background-color: rgb(24, 24, 24);
@@ -525,7 +526,7 @@ div.boxs{
     .address2{
         width: 65%;
         margin-bottom: 20px;
-        position: relative;
+        box-sizing: border-box;
     }
 
     div.form{
@@ -533,7 +534,7 @@ div.boxs{
         justify-content: center;
         text-align: center;
         align-items: center;
-        overflow: hidden;
+        box-sizing: border-box;
     }
     div.form .subject p{
         text-align: center;
