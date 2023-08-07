@@ -529,6 +529,7 @@ div.boxs{
         box-sizing: border-box;
     }
 
+
     div.form{
         width: 65%;
         justify-content: center;
@@ -572,9 +573,14 @@ div.boxs{
     .address2{
         width: 90%;
         margin-bottom: 20px;
-        position: relative;
+        box-sizing: border-box;
+
     }
 
+    iframe{
+        width: 100px;
+        height: 100px;
+    }
 
     div.form{
         width: 90%;
